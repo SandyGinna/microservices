@@ -1,10 +1,5 @@
-# Master Microservices with Spring Boot, Docker, Kubernetes
 
-[![Image](https://github.com/eazybytes/microservices/blob/3.2.0/Microservice.png "Master Microservices with Java, Spring, Docker, Kubernetes")](https://www.udemy.com/course/master-microservices-with-spring-docker-kubernetes/?referralCode=9365DB9B7EE637F629A9)
-
-Learn how to create enterprise and production ready Microservices with Spring, Spring Cloud, Docker and Kubernetes.
-
-## Topics covered in the course
+## Topics 
 * Section 1 - Introduction to Microservices Architecture
 * Section 2- Building microservices using Spring Boot
 * Section 3 - How do we right size our microservices & identify boundaries
@@ -26,10 +21,6 @@ Learn how to create enterprise and production ready Microservices with Spring, S
 * Section 19 - Introduction to K8s Ingress, Service Mesh (Istio) & mTLS
 * Section 20 - Congratulations & Thank You
 
-## Pre-requisite for the course
-- Good understanding on Java and Spring concepts
-- Basic understanding on SpringBoot & REST services is a bonus but not mandatory
-- Interest to learn and explore about Microservices
 
 # Important Links
 - Spring Boot - https://spring.io/projects/spring-boot
@@ -83,7 +74,7 @@ Learn how to create enterprise and production ready Microservices with Spring, S
 - Istio (Service mesh) - https://istio.io
 
 
-## Maven Commands used in the course
+## Maven Commands used 
 
 |     Maven Command       |     Description          |
 | ------------- | ------------- |
@@ -92,7 +83,7 @@ Learn how to create enterprise and production ready Microservices with Spring, S
 | "mvn spring-boot:build-image" | To generate a docker image using Buildpacks. No need of Dockerfile |
 | "mvn compile jib:dockerBuild" | To generate a docker image using Google Jib. No need of Dockerfile |
 
-## Docker Commands used in the course
+## Docker Commands used 
 
 |     Docker Command       |     Description          |
 | ------------- | ------------- |
@@ -125,13 +116,13 @@ Learn how to create enterprise and production ready Microservices with Spring, S
 | "docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:22.0.3 start-dev" | To create Keycloak Container|
 
 
-## Apache Benchmark command used in the course
+## Apache Benchmark command used 
 
 |     Apache Benchmark command      |     Description          |
 | ------------- | ------------- |
 | "ab -n 10 -c 2 -v 3 http://localhost:8072/eazybank/cards/api/contact-info" | To perform load testing on API by sending 10 requests |
 
-## Kubernetes Commands used in the course
+## Kubernetes Commands used 
 
 |     Kubernetes Command       |     Description          |
 | ------------- | ------------- |
@@ -160,7 +151,7 @@ Learn how to create enterprise and production ready Microservices with Spring, S
 | "kubectl get pvc" | To list the pvcs inside your cluster |
 | "kubectl delete pvc data-happy-panda-mariadb-0" | To delete a pvc inside your cluster |
 
-## Helm Commands used in the course
+## Helm Commands used 
 
 |     Helm Command       |     Description          |
 | ------------- | ------------- |
